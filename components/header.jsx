@@ -60,6 +60,7 @@ export default function Header() {
               <Button
                 variant="ghost"
                 size="sm"
+                className='cursor-pointer'
                 onClick={() => setShowUpgradeModal(true)}
               >
                 Pricing
@@ -106,7 +107,7 @@ export default function Header() {
 
             <Unauthenticated>
               <SignInButton mode="modal">
-                <Button size="sm">Sign In</Button>
+                <Button size="sm" className='cursor-pointer'>Sign In</Button>
               </SignInButton>
             </Unauthenticated>
           </div>

@@ -1,4 +1,4 @@
-import { Instagram, Mail, Twitter, Youtube } from "lucide-react";
+import { Github, Instagram, Linkedin, Mail, Twitter, Youtube } from "lucide-react";
 import React from "react";
 
 const Footer = () => {
@@ -10,18 +10,18 @@ const Footer = () => {
 
       <div className="flex gap-4 items-center">
         <a
-          href="https://www.youtube.com/roadsidecoder"
+          href="https://www.linkedin.com/in/dharmendra-iitm/"
           className="text-gray-400"
         >
-          <Youtube />
+          <Linkedin />
         </a>
         <a
-          href="https://www.instagram.com/roadsidecoder"
+          href="https://github.com/Dharmendra-07/"
           className="text-gray-400"
         >
-          <Instagram className="w-5 h-5" />
+          <Github className="w-5 h-5" />
         </a>
-        <a href="https://x.com/Piyush_eon" className="text-gray-400">
+        <a href="https://x.com/Dharmendrra07" className="text-gray-400">
           <Twitter className="w-5 h-5" />
         </a>
       </div>
