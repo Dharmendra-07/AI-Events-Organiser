@@ -23,3 +23,6 @@ NEXT_PUBLIC_UNSPLASH_ACCESS_KEY=
 
 GEMINI_API_KEY=
 ```
+https://curious-mantis-7.clerk.accounts.dev
+
+https://curious-mantis-7.clerk.accounts.dev/.well-known/jwks.json
