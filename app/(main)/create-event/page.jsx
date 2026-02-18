@@ -305,7 +305,7 @@ export default function CreateEventPage() {
             <Input
               {...register("title")}
               placeholder="Event Name"
-              className="text-3xl font-semibold bg-transparent border-none focus-visible:ring-0"
+              className="text-3xl font-semibold bg-transparent border-none focus-visible:ring-0 cursor-pointer"
             />
             {errors.title && (
               <p className="text-sm text-red-400 mt-1">
@@ -318,7 +318,7 @@ export default function CreateEventPage() {
           <div className="grid grid-cols-2 gap-6">
             {/* Start */}
             <div className="space-y-2">
-              <Label className="text-sm">Start</Label>
+              <Label className="text-sm cursor-pointer">Start</Label>
               <div className="grid grid-cols-[1fr_auto] gap-2">
                 <Popover>
                   <PopoverTrigger asChild>
@@ -352,7 +352,7 @@ export default function CreateEventPage() {
             </div>
 
             {/* End */}
-            <div className="space-y-2">
+            <div className="space-y-2 cursor-pointer">
               <Label className="text-sm">End</Label>
               <div className="grid grid-cols-[1fr_auto] gap-2">
                 <Popover>
@@ -381,7 +381,7 @@ export default function CreateEventPage() {
                 />
               </div>
               {(errors.endDate || errors.endTime) && (
-                <p className="text-sm text-red-400">
+                <p className="text-sm text-red-400 cursor-pointer">
                   {errors.endDate?.message || errors.endTime?.message}
                 </p>
               )}
@@ -389,7 +389,7 @@ export default function CreateEventPage() {
           </div>
 
           {/* Category */}
-          <div className="space-y-2">
+          <div className="space-y-2 cursor-pointer">
             <Label className="text-sm">Category</Label>
             <Controller
               control={control}
@@ -415,7 +415,7 @@ export default function CreateEventPage() {
           </div>
 
           {/* Location */}
-          <div className="space-y-3">
+          <div className="space-y-3 cursor-pointer">
             <Label className="text-sm">Location</Label>
             <div className="grid grid-cols-2 gap-4">
               <Controller
@@ -452,7 +452,7 @@ export default function CreateEventPage() {
                     onValueChange={field.onChange}
                     disabled={!selectedState}
                   >
-                    <SelectTrigger className="w-full">
+                    <SelectTrigger className="w-full cursor-pointer">
                       <SelectValue
                         placeholder={
                           selectedState ? "Select city" : "Select state first"
@@ -471,7 +471,7 @@ export default function CreateEventPage() {
               />
             </div>
 
-            <div className="space-y-2 mt-6">
+            <div className="space-y-2 mt-6 cursor-pointer">
               <Label className="text-sm">Venue Details</Label>
 
               <Input
@@ -491,7 +491,7 @@ export default function CreateEventPage() {
           </div>
 
           {/* Description */}
-          <div className="space-y-2">
+          <div className="space-y-2 cursor-pointer">
             <Label>Description</Label>
             <Textarea
               {...register("description")}
