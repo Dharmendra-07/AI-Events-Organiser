@@ -214,7 +214,7 @@ export default function Header() {
             </Button>
 
             <Authenticated>
-              <Button size="sm" asChild className="flex gap-2 mr-4">
+              <Button size="sm" asChild className="flex gap-2 mr-4 cursor-pointer">
                 <Link href="/create-event">
                   <Plus className="w-4 h-4" />
                   <span className="hidden sm:inline cursor-pointer">Create Event</span>
