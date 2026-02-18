@@ -261,7 +261,7 @@ export default function ExplorePage() {
               <p className="text-muted-foreground">
                 Be the first to create an event in your area!
               </p>
-              <Button asChild className="gap-2">
+              <Button asChild className="gap-2 cursor-pointer">
                 <a href="/create-event">Create Event</a>
               </Button>
             </div>
