@@ -14,11 +14,11 @@ export default function ExploreLayout({ children }) {
       <div className="max-w-7xl mx-auto px-6">
         {/* Back Button for nested routes */}
         {!isMainExplore && (
-          <div className="mb-6">
+          <div className="mb-6 cursor-pointer">
             <Button
               variant="ghost"
               onClick={() => router.push("/explore")}
-              className="gap-2 -ml-2 cursor-pointer"
+              className="gap-2 -ml-2"
             >
               <ArrowLeft className="w-4 h-4" />
               Back to Explore
