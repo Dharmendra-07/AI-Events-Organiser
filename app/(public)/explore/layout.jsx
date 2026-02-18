@@ -18,7 +18,7 @@ export default function ExploreLayout({ children }) {
             <Button
               variant="ghost"
               onClick={() => router.push("/explore")}
-              className="gap-2 -ml-2"
+              className="gap-2 -ml-2 cursor-pointer"
             >
               <ArrowLeft className="w-4 h-4" />
               Back to Explore
