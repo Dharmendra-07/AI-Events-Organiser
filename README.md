@@ -89,7 +89,7 @@ NEXTAUTH_SECRET=your_secret
 4. Run migrations and seed database:
 
 ```bash
-npx prisma migrate dev
+npx convex dev
 ```
 
 5. Start the development server:
