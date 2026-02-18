@@ -3,7 +3,18 @@
 **Full Stack React Project using Next.js, Tailwind CSS, Shadcn UI, and Mobbin.**
 Build and manage events efficiently with AI-powered features.
 
-🔗 **Live Demo:** [AI Events Organiser](https://ai-events-organiser-nleynd8jd-justdk06s-projects.vercel.app/)
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/Dharmendra-07/ai-recipe-platform?style=for-the-badge" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://ai-events-organiser-nleynd8jd-justdk06s-projects.vercel.app/">🌐 Live Demo</a> •
+  <a href="https://github.com/Dharmendra-07/AI-Events-Organiser">📦 GitHub Repo</a>
+</p>
 
 ---
 
@@ -57,7 +68,7 @@ The project demonstrates integration of frontend design (Next.js, Tailwind CSS, 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ai-events-organiser.git
+git clone https://github.com/Dharmendra-07/ai-events-organiser.git
 ```
 
 2. Install dependencies:
