@@ -260,11 +260,10 @@ export default function CreateEventPage() {
                 <button
                   key={color}
                   type="button"
-                  className={`w-10 h-10 rounded-full border-2 transition-all ${
-                    !hasPro && color !== "#1e3a8a"
+                  className={`w-10 h-10 rounded-full border-2 transition-all ${!hasPro && color !== "#1e3a8a"
                       ? "opacity-40 cursor-not-allowed"
                       : "hover:scale-110"
-                  }`}
+                    }`}
                   style={{
                     backgroundColor: color,
                     borderColor: themeColor === color ? "white" : "transparent",
