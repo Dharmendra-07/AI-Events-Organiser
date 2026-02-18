@@ -1,7 +1,161 @@
-# Full Stack AI Event Organiser with Next JS, Tailwind, Mobbin, Shadcn UI Tutorial 🔥🔥
-## https://www.youtube.com/watch?v=4keJJzL-VCM
-<img width="1470" height="956" alt="Screenshot 2025-11-14 at 12 34 45 AM" src="https://github.com/user-attachments/assets/f7f48cdc-a3bf-40e0-b275-cf690e1bdd48" />
-<img width="1470" height="956" alt="Screenshot 2025-11-14 at 12 34 16 AM" src="https://github.com/user-attachments/assets/84f2f663-8d0f-413f-a26f-d3674b5e03c5" />
+# AI Events Organiser
+
+**Full Stack React Project using Next.js, Tailwind CSS, Shadcn UI, and Mobbin.**
+Build and manage events efficiently with AI-powered features.
+
+🔗 **Live Demo:** [AI Events Organiser](https://ai-events-organiser-nleynd8jd-justdk06s-projects.vercel.app/)
+
+---
+
+## Table of Contents
+
+* [Project Overview](#project-overview)
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Installation](#installation)
+* [Project Structure](#project-structure)
+* [Screenshots](#screenshots)
+* [Usage](#usage)
+* [Contributing](#contributing)
+
+---
+
+## Project Overview
+
+AI Events Organiser is a full-stack web application for managing events with advanced AI-powered functionalities. Users can create, explore, register for events, and handle ticketing and subscriptions with ease.
+
+The project demonstrates integration of frontend design (Next.js, Tailwind CSS, Shadcn UI) with backend operations, user authentication, database interactions, and AI code/event review flows.
+
+---
+
+## Features
+
+* Next.js + Tailwind + Shadcn UI integration
+* AI-powered event creation and code review
+* User authentication and protected routes
+* Event browsing and detailed view
+* User subscriptions and pricing plans
+* Ticketing and event registration
+* Admin dashboard for event management
+* Database design with relational schema
+* Custom hooks for API query and mutation
+
+---
+
+## Tech Stack
+
+* **Frontend:** Next.js, Tailwind CSS, Shadcn UI, Mobbin
+* **Backend:** Node.js, Prisma ORM
+* **Database:** PostgreSQL / MySQL (adjust as needed)
+* **AI Features:** AI code review, AI event suggestions
+* **Deployment:** Vercel
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/ai-events-organiser.git
+```
+
+2. Install dependencies:
+
+```bash
+cd ai-events-organiser
+npm install
+```
+
+3. Setup environment variables:
+   Create a `.env` file and add:
+
+```env
+DATABASE_URL=your_database_url
+NEXTAUTH_SECRET=your_secret
+```
+
+4. Run migrations and seed database:
+
+```bash
+npx prisma migrate dev
+```
+
+5. Start the development server:
+
+```bash
+npm run dev
+```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+---
+
+## Project Structure
+
+```
+/app
+  /components
+  /hooks
+  /layouts
+  /pages
+  /styles
+/prisma
+  schema.prisma
+/public
+  /images
+```
+
+---
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard Screenshot](./public/images/dashboard.png)
+
+*(Replace the path with your actual dashboard screenshot in the `public/images` folder)*
+
+---
+
+### Landing Page
+
+![Landing Page Screenshot](./public/images/landing.png)
+
+### Explore Events
+
+![Explore Screenshot](./public/images/explore.png)
+
+### Event Detail
+
+![Event Detail Screenshot](./public/images/event-detail.png)
+
+---
+
+## Usage
+
+* Users can sign up or log in
+* Explore events and register for them
+* Use AI tools for code or event review
+* Manage your events from the dashboard
+* Track tickets and subscriptions
+
+---
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+---
+
+I can also **create a ready-to-use dashboard image section** with placeholders for your screenshots, so it looks professional in GitHub.
+
+Do you want me to generate that enhanced screenshot section for the README?
+
 
 ### Make sure to create a `.env` file with following variables -
 
