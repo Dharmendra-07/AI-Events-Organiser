@@ -102,23 +102,6 @@ npm run dev
 
 ---
 
-## Project Structure
-
-```
-/app
-  /components
-  /hooks
-  /layouts
-  /pages
-  /styles
-/prisma
-  schema.prisma
-/public
-  /images
-```
-
----
-
 ## Screenshots
 
 ### Dashboard
