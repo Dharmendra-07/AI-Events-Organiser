@@ -12,7 +12,7 @@ Build and manage events efficiently with AI-powered features.
 </p>
 
 <p align="center">
-  <a href="https://ai-events-organiser-nleynd8jd-justdk06s-projects.vercel.app/">🌐 Live Demo</a> •
+  <a href="https://ai-events-organiser-delta.vercel.app/">🌐 Live Demo</a> •
   <a href="https://github.com/Dharmendra-07/AI-Events-Organiser">📦 GitHub Repo</a>
 </p>
 
