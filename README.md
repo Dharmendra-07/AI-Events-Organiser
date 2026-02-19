@@ -38,6 +38,19 @@ AI Events Organiser is a full-stack web application for managing events with adv
 The project demonstrates integration of frontend design (Next.js, Tailwind CSS, Shadcn UI) with backend operations, user authentication, database interactions, and AI code/event review flows.
 
 ---
+### Landing Page
+
+![Landing Page Screenshot](./public/images/landing.png)
+
+### Explore Events
+
+![Explore Screenshot](./public/images/explore.png)
+
+### Event Detail
+
+![Event Detail Screenshot](./public/images/event-details.png)
+
+---
 
 ## Features
 
@@ -110,20 +123,6 @@ npm run dev
 ![Dashboard Screenshot](./public/images/dashboard.png)
 
 *(Replace the path with your actual dashboard screenshot in the `public/images` folder)*
-
----
-
-### Landing Page
-
-![Landing Page Screenshot](./public/images/landing.png)
-
-### Explore Events
-
-![Explore Screenshot](./public/images/explore.png)
-
-### Event Detail
-
-![Event Detail Screenshot](./public/images/event-detail.png)
 
 ---
 
