@@ -68,13 +68,13 @@ The project demonstrates integration of frontend design (Next.js, Tailwind CSS, 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Dharmendra-07/ai-events-organiser.git
+git clone https://github.com/Dharmendra-07/AI-Events-Organiser.git
 ```
 
 2. Install dependencies:
 
 ```bash
-cd ai-events-organiser
+cd AI-Events-Organiser
 npm install
 ```
 
@@ -95,6 +95,7 @@ npx convex dev
 5. Start the development server:
 
 ```bash
+npm install
 npm run dev
 ```
 
