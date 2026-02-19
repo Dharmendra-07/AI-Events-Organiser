@@ -108,7 +108,6 @@ npx convex dev
 5. Start the development server:
 
 ```bash
-npm install
 npm run dev
 ```
 
