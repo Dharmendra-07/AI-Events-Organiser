@@ -39,7 +39,8 @@ export default function UnsplashImagePicker({ isOpen, onClose, onSelect }) {
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-4xl max-h-[80vh] overflow-hidden flex flex-col">
+      <DialogContent className="max-w-4xl max-h-[80vh] overflow-hidden flex flex-col [&>button]:cursor-pointer">
+
         <DialogHeader>
           <DialogTitle>Choose Cover Image</DialogTitle>
         </DialogHeader>
@@ -51,7 +52,7 @@ export default function UnsplashImagePicker({ isOpen, onClose, onSelect }) {
             placeholder="Search for images..."
             className="flex-1"
           />
-          <Button type="submit" disabled={loading}>
+          <Button type="submit" disabled={loading} className="cursor-pointer">
             {loading ? (
               <Loader2 className="w-4 h-4 animate-spin" />
             ) : (
@@ -71,7 +72,7 @@ export default function UnsplashImagePicker({ isOpen, onClose, onSelect }) {
                 <button
                   key={image.id}
                   onClick={() => onSelect(image.urls.regular)}
-                  className="relative aspect-video overflow-hidden rounded-lg border-2 border-transparent hover:border-purple-500 transition-all"
+                  className="relative aspect-video overflow-hidden rounded-lg border-2 border-transparent hover:border-purple-500 transition-all cursor-pointer"
                 >
                   <Image
                     src={image.urls.small}
@@ -98,7 +99,7 @@ export default function UnsplashImagePicker({ isOpen, onClose, onSelect }) {
             href="https://unsplash.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline"
+            className="underline cursor-pointer"
           >
             Unsplash
           </a>

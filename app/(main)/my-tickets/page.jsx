@@ -119,7 +119,7 @@ export default function MyTicketsPage() {
               <p className="text-muted-foreground">
                 Register for events to see your tickets here
               </p>
-              <Button asChild className="gap-2">
+              <Button asChild className="gap-2 cursor-pointer">
                 <Link href="/explore">
                   <Ticket className="w-4 h-4" /> Browse Events
                 </Link>

@@ -78,11 +78,11 @@ export default function RegisterModal({ event, isOpen, onClose }) {
             </div>
             <Separator />
             <div className="w-full space-y-2">
-              <Button className="w-full gap-2" onClick={handleViewTicket}>
+              <Button className="w-full gap-2 cursor-pointer" onClick={handleViewTicket}>
                 <Ticket className="w-4 h-4" />
                 View My Ticket
               </Button>
-              <Button variant="outline" className="w-full" onClick={onClose}>
+              <Button variant="outline" className="w-full cursor-pointer" onClick={onClose}>
                 Close
               </Button>
             </div>

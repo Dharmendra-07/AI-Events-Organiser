@@ -12,11 +12,10 @@ export default function EventCard({
   event,
   onClick,
   onDelete,
-  variant = "grid", // "grid" or "list"
-  action = null, // "event" | "ticket" | null
+  variant = "grid",
+  action = null,
   className = "",
 }) {
-  // List variant (compact horizontal layout)
   if (variant === "list") {
     return (
       <Card
@@ -24,7 +23,6 @@ export default function EventCard({
         onClick={onClick}
       >
         <CardContent className="p-3 flex gap-3">
-          {/* Event Image */}
           <div className="w-20 h-20 rounded-lg shrink-0 overflow-hidden relative">
             {event.coverImage ? (
               <Image
@@ -43,7 +41,6 @@ export default function EventCard({
             )}
           </div>
 
-          {/* Event Details */}
           <div className="flex-1 min-w-0">
             <h3 className="font-semibold text-sm mb-1 group-hover:text-purple-400 transition-colors line-clamp-2">
               {event.title}
@@ -67,10 +64,13 @@ export default function EventCard({
     );
   }
 
-  // Grid variant (default - original design)
   return (
     <Card
-      className={`overflow-hidden group pt-0 ${onClick ? "cursor-pointer hover:shadow-lg transition-all hover:border-purple-500/50" : ""} ${className}`}
+      className={`overflow-hidden group pt-0 ${
+        onClick
+          ? "cursor-pointer hover:shadow-lg transition-all hover:border-purple-500/50"
+          : ""
+      } ${className}`}
       onClick={onClick}
     >
       <div className="relative h-48 overflow-hidden">
@@ -131,11 +131,10 @@ export default function EventCard({
 
         {action && (
           <div className="flex gap-2 pt-2">
-            {/* Primary button */}
             <Button
               variant="outline"
               size="sm"
-              className="flex-1 gap-2"
+              className="flex-1 gap-2 cursor-pointer"
               onClick={(e) => {
                 e.stopPropagation();
                 onClick?.(e);
@@ -154,12 +153,11 @@ export default function EventCard({
               )}
             </Button>
 
-            {/* Secondary button - delete / cancel */}
             {onDelete && (
               <Button
                 variant="outline"
                 size="sm"
-                className="gap-2 text-red-500 hover:text-red-600 hover:bg-red-50"
+                className="gap-2 text-red-500 hover:text-red-600 hover:bg-red-50 cursor-pointer"
                 onClick={(e) => {
                   e.stopPropagation();
                   onDelete(event._id);

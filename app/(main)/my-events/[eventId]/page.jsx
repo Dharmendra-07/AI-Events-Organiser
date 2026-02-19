@@ -333,7 +333,7 @@ export default function EventDashboardPage() {
             <Button
               variant="outline"
               onClick={handleExportCSV}
-              className="gap-2"
+              className="gap-2 cursor-pointer"
             >
               <Download className="w-4 h-4" />
               Export CSV

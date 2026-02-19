@@ -327,7 +327,7 @@ export default function EventDetailPage() {
                     Manage Event
                   </Button>
                 ) : (
-                  <Button className="w-full gap-2" onClick={handleRegister}>
+                  <Button className="w-full gap-2 cursor-pointer" onClick={handleRegister}>
                     <Ticket className="w-4 h-4" />
                     Register for Event
                   </Button>
@@ -336,7 +336,7 @@ export default function EventDetailPage() {
                 {/* Share Button */}
                 <Button
                   variant="outline"
-                  className="w-full gap-2"
+                  className="w-full gap-2 cursor-pointer"
                   onClick={handleShare}
                 >
                   <Share2 className="w-4 h-4" />
